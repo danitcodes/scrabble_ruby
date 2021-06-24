@@ -8,6 +8,15 @@
 
 This repository is a Ruby basic practice exercise working with hashes, test-driven development and continued learning basic Ruby syntax. Scrabble Score is a method that takes a word and returns the Scrabble score for that word.
 
+### Objectives
+
+- Specs that have complete testing coverage
+- Custom classes to store instance methods and instance variables
+- Passing specs, with edge case/exception consideration and handling
+- Easy to understand logic; DRYed code when possible
+- Descriptive variable names
+- Proper indentation and spacing throughout
+
 ### User Stories
 
 |   	|  User Story 	|
