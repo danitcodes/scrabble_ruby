@@ -51,7 +51,7 @@ This repository is a Ruby basic practice exercise working with hashes, test-driv
 - [VS Code](https://code.visualstudio.com/) 1.57.1
 - Git 2.30.0 & GitHub
 - Ruby v.2.6.5
-- Docker v.20.10.6
+<!-- - Docker v.20.10.6 -->
 - Test-driven development
 - Chruby v.0.3.9
 - Rspec v.3.10.1
@@ -103,7 +103,10 @@ Installation of Ruby with Windows OS can be a difficult, personalized task. For 
   - `cd scrabble-ruby`
   - `code .`
 
-4 (Optional). If you need to (re-)install the Gemfile.lock at any point, run `bundle install`. If you make any changes to the Ruby Gems included in the project, run `bundle update <gem-name-here>`.
+4 (Optional). If you run into any issues with Ruby versioning, check which version of Ruby you're currently using with the command `ruby -v`, and use the command `chruby ruby-#.#.#` where the # signs are replaced by the version you want to switch to between available Ruby versions within your local environment.
+5 (Optional). If you need to (re-)install the Gemfile.lock at any point, run `bundle install`. If you make any changes to the Ruby Gems included in the project, run `bundle update <gem-name-here>`.
+6 (Optional). The Gem 'rspec' should automatically be installed through the Gemfile, but if it doesn't you can run `gem install rspec` inside of the top level of the project's folder from your Terminal/CLI.
+7. To run tests, enter the CLI command `rspec` in the root directory of your project.
 
 </details>
 
