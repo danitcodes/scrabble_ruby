@@ -67,7 +67,7 @@ This repository is a Ruby basic practice exercise working with hashes, test-driv
 1. Access Terminal in your Finder, and open a new window. Install the package manager, [Homebrew](https://brew.sh/), on your device by entering this line of code in Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`.
 2. Ensure Homebrew packages are run with this line of code: `echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile`.
 3. Once homebrew is installed, install Git, a version control system for code writers, with this line of code `brew install git`.
-4. Now, install ruby-install, a tool for installing Ruby, through Homebrew with the following command: `brew install ruby-install`.
+4. Now, install ruby-install, a tool for installing different versions of Ruby, through Homebrew with the following command: `brew install ruby-install`.
 5. Once ruby-install is on your local machine, run the command `ruby-install ruby 2.6.5` to install Ruby. (MacOS comes with Ruby automatically included in its system files, but this specific version of Ruby is needed for this application.)
 6. Run `brew install chruby` next, to install chruby, a program that manages which versions of Ruby your system is using.
 7. Finally, verify that you can install Rails: `gem install rails -v 5.2.0`.
