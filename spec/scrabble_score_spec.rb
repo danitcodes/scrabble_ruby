@@ -1,5 +1,5 @@
 require('rspec')
-require('leetspeak')
+require('scrabble_score')
 
 describe('user_input#scrabble_score') do
   it("returns a scrabble score for a letter") do
