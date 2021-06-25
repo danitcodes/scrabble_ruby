@@ -38,17 +38,14 @@ class Word
     string_array = @word.split("")
     score_array = []
     string_array.each do |letter|
-      score_array.push(@letter_scores.fetch(letter))
+      if (/[a-zA-Z]/.match?(letter) == true)
+        # TODO match on any Unicode letter for non-English letters
+        score_array.push(@letter_scores.fetch(letter))
+      else
+        #do nothing & move to next character
+      end
     end
     word_score = score_array.sum()
     return word_score
   end
-
 end
-
-
-# if #the character is an alphabet letter
-#   score_array.push(#the letter's value)
-# else
-#   #do nothing & move to next character
-# end
