@@ -10,12 +10,12 @@ This repository is a Ruby basic practice exercise working with hashes, regular e
 
 ### Objectives
 
-- Specs that have complete testing coverage
-- Custom classes to store instance methods and instance variables
-- Passing specs, with edge case/exception consideration and handling
-- Easy to understand logic; DRYed code when possible
-- Descriptive variable names
-- Proper indentation and spacing throughout
+[x] Specs that have complete testing coverage
+[x] Custom classes to store instance methods and instance variables
+[x] Passing specs, with edge case/exception consideration and handling
+[x] Easy to understand logic; DRYed code when possible
+[x] Descriptive variable names
+[x] Proper indentation and spacing throughout
 
 ### User Stories
 
