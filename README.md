@@ -111,6 +111,10 @@ Installation of Ruby with Windows OS can be a difficult, personalized task. For 
 
 </details>
 
+### Stretch Goals
+
+- Register when a new word is starting if multiple words are entered into the method, and count and return each new word's score separately.
+
 ### Legal
 
 [MIT](https://opensource.org/licenses/MIT), 2021. Copyright, Danielle Thompson.
