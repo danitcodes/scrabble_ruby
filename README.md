@@ -2,11 +2,11 @@
 
 ## By Danielle Thompson
 
-## Initiated 6.24.21.
+## Initiated 6.24.21. Last updated 6.25.21.
 
 ### Description
 
-This repository is a Ruby basic practice exercise working with hashes, test-driven development and continued learning basic Ruby syntax. Scrabble Score is a method that takes a word and returns the Scrabble score for that word.
+This repository is a Ruby basic practice exercise working with hashes, regular expressions, test-driven development, and continued learning with basic Ruby syntax. Scrabble Score is a method that takes a word and returns the Scrabble score for that word.
 
 ### Objectives
 
