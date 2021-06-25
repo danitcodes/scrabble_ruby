@@ -43,8 +43,9 @@ This repository is a Ruby basic practice exercise working with hashes, test-driv
 2. Create an array to hold the scores of each letter in a user inputted word (i.e. a string).
 3. Split the user inputted string into individual characters.
 4. For each character in the string, either push its subsequent value into an array to be added up at the conclusion of the list of string characters, or set up a "score" variable equal to zero that adds each letter in the string.
-5. Error handle for any string-format non-letters (e.g. numbers, special characters, whitespace).
-6. Return the total score of the user inputted word.
+5. Handle edge case/exception for any string-format non-letters (e.g. numbers, special characters, whitespace).
+6. Handle edge case/exception for non-capital letters coming in through the string to be able to match accurately to the uppercase key.
+7. Return the total score of the user inputted word.
 
 ### Technologies
 
