@@ -21,10 +21,8 @@ This repository is a Ruby basic practice exercise working with hashes, regular e
 
 |   	|  User Story 	|
 |:-:	|:-:	|
-|  #1 	|  A user enters a string to be scored.	|
-|  #2 	|  @TODO 	|
-|  #3 	|  @TODO 	|
-|  #4 	|  @TODO	|
+|  #1 	|  A user enters a word in the method and gets the Scrabble score for that word.	|
+|  #2 	|  A user should still get the correct score for their word for any non-letters that get included in their entry. 	|
 
 ### Plain English Specs
 
