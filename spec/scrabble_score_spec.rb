@@ -10,4 +10,8 @@ describe('#scrabble_score') do
     test2 = Word.new("cat")
     expect(test2.scrabble_score()).to(eq(5))
   end
+  it("ignores the space in 'cu rve'") do
+    test3 = Word.new("cu rve")
+    expect(test3.scrabble_score()).to(eq(10))
+  end
 end
