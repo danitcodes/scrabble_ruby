@@ -36,23 +36,13 @@ class Word
     }
   end
 
-  # a reader method
-  # @TODO - should be tested, too!
-  #needed to *save* value of user input that went first through `initialize`
-  # def word
-  #   @word
-  # end
-
   def scrabble_score()
-    word_score = @letter_scores.fetch(@word)
-    # string_array = @word.split("")
-    # score_array = []
-    # puts string_array
-    # puts score_array
-    # string_array.each do |letter|
-      
-    # end
-    #word_score = string_array.sum()
+    string_array = @word.split("")
+    score_array = []
+    string_array.each do |letter|
+      score_array.push(@letter_scores.fetch(letter))
+    end
+    word_score = score_array.sum()
     puts word_score
     return word_score
   end
