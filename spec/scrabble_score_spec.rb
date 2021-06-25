@@ -14,4 +14,8 @@ describe('#scrabble_score') do
     test3 = Word.new("cu rve")
     expect(test3.scrabble_score()).to(eq(10))
   end
+  it("ignores the character in 'cu@rve'") do
+    test4 = Word.new("cu@rve")
+    expect(test4.scrabble_score()).to(eq(10))
+  end
 end
