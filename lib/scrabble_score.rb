@@ -39,7 +39,6 @@ class Word
     score_array = []
     string_array.each do |letter|
       if (/[a-zA-Z]/.match?(letter) == true)
-        # TODO match on any Unicode letter for non-English letters
         score_array.push(@letter_scores.fetch(letter))
       else
         #do nothing & move to next character
