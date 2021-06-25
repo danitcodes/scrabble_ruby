@@ -4,8 +4,6 @@ class Word
   # initialize method runs any code as soon as an object is created
   def initialize(string)
     @word = string.upcase()
-
-    @letter_scores = Hash.new()
     @letter_scores = {
       "A" => 1,
       "E" => 1,
