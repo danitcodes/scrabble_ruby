@@ -41,9 +41,9 @@ class Word
       score_array.push(@letter_scores.fetch(letter))
     end
     word_score = score_array.sum()
-    puts word_score
     return word_score
   end
+
 end
 
 
