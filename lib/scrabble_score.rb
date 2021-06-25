@@ -4,6 +4,8 @@ class Word
   # initialize method runs any code as soon as an object is created
   def initialize(string)
     @word = string.upcase()
+
+    @letter_scores = Hash.new()
     @letter_scores = {
       "A" => 1,
       "E" => 1,
@@ -42,17 +44,23 @@ class Word
   # end
 
   def scrabble_score()
-    puts "Test #{@word}"
-  #   string_array = str.split("")
-  #   score_array = []
-  #   string_array.each do |letter|
-  #     if #the character is an alphabet letter
-  #       score_array.push(#the letter's value)
-  #     else
-  #       #do nothing & move to next character
-  #     end
-  #   end
-  #   word_score = string_array.sum()
-  #   return word_score
+    word_score = @letter_scores.fetch(@word)
+    # string_array = @word.split("")
+    # score_array = []
+    # puts string_array
+    # puts score_array
+    # string_array.each do |letter|
+      
+    # end
+    #word_score = string_array.sum()
+    puts word_score
+    return word_score
   end
 end
+
+
+# if #the character is an alphabet letter
+#   score_array.push(#the letter's value)
+# else
+#   #do nothing & move to next character
+# end
